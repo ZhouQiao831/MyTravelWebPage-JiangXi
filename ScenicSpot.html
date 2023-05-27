@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅游景点</title>
+    <link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="../期末大作业/css/mainstyle.css" />
+  
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px) and (max-device-width: 980px)" href="../期末大作业/index.html" /> 
+  <!-- 如果屏幕宽度小于600像素（max-device-width: 600px），就加载css600.css文件。
+  如果屏幕宽度在600像素到980像素之间，则加载css600-980.css文件 -->
+  
+  </head>
+<body>
+  <ul class="nav">
+    <li class="first"> 
+      <div id="page01" class=" page" style="display:block" > 
+      <a class="nav-link text-white" href="../期末大作业/index.html" >首页</a>
+  </div>
+</li>
+    <li class="second">
+      <div id="page02" class=" page" style="display:block">
+        <a class="nav-link text-white" href="../期末大作业/HistoryCulture.html">历史文化</a>
+      </div>
+    </li>
+    <li class="three">
+      <div id="page03" class=" page" style="display:block">
+        <a class="nav-link text-white" href="../期末大作业/Geographical.html">地理环境</a>
+      </div>
+    </li>
+    <li class="fourth"><div id="page03" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/ScenicSpot.html">旅游景点</a>
+    </div>
+    </li>
+    <li class="fifth"><div id="page05" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/Declicacy.html">特色美食</a>
+    </div>
+    </li>
+    <li class="sixth"><div id="page06" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/DevelopmentHistory.html">发展历史</a>
+    </div>
+    </li>
+
+</ul>
+
+
+
+    <!-- Carousel图片轮播 -->
+
+  
+  <div id="demo" class="carousel slide "  data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=42808129,265340851&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500 " class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·武当山</h3>
+        </div>
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img1.baidu.com/it/u=94637218,3026385394&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·婺源</h3>
+        </div> 
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img2.baidu.com/it/u=366600451,2530759601&fm=253&fmt=auto&app=138&f=JPEG?w=950&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·庐山</h3>
+        </div>  
+      </div>
+  
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img2.baidu.com/it/u=2593494459,3332889748&fm=253&fmt=auto&app=138&f=JPEG?w=1120&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·滕王阁</h3>
+        </div>  
+      </div>
+  
+  
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=2912433513,2373749971&fm=253&fmt=auto&app=138&f=JPEG?w=852&h=500" class="d-block"height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·鄱阳湖</h3>
+          
+        </div>  
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=1092905551,1162734268&fm=253&fmt=auto&app=138&f=JPEG?w=890&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·庐山西海</h3>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  
+  
+    <div class="container mt-3">
+      <div class="container">
+        <p class="bg-danger text-white text-center">与其向往  不如出发</p>
+    
+      </div>
+    </div>
+
+
+<!-- 景区介绍 -->
+
+  <div class="row div-video-list">
+    <!-- 第一个景点 -->
+    <div class="col-md-4 bg-body text-white text-center">
+      <div class="bg-white mt-4 mb-8"  >
+        <img src="https://img0.baidu.com/it/u=21276485,683424596&fm=253&fmt=auto&app=138&f=JPEG?w=756&h=500" 
+        width="300px"
+        height="200px"
+        > 
+      </div>
+    </div>
+    <div class="col-md-8 mt-4">
+          <div class="title" style="font-size: larger; ">
+
+            <a href="https://www.baidu.com/link?url=_YQAtCjTqPbEZpEUnzLIQcXe6gnlzaTWI1XD6mrCHwCHoj99RmB4SofPvFgswA3-O6G_R0_lj6IDD5DvrJMCrK&wd=&eqid=8fc35e500006be2100000006645a589f"
+             class="PlaceName2 nav-link text-danger" >·  江西庐山</a>
+          </div>
+          <div  style="font-size: medium;">
+         <p>
+          庐山，又名匡山、匡庐，位于江西省九江市庐山市境内。东偎婺源鄱阳湖，南靠南昌滕王阁，西邻京九铁路，北枕滔滔长江，
+          耸峙于长江中下游平原与鄱阳湖畔,长约25千米，宽约10千米，主
+          峰汉阳峰，海拔1474米。山体呈椭圆形，典型的地垒式断块山。庐山以雄、奇、险、秀闻名于世，被誉为“人文圣山” ，素
+          有“匡庐奇秀甲天下”之誉 。自古命名的山峰有171座，群峰间散布冈岭26座，壑谷20条，岩洞16个，怪石22处。水流在河
+          谷发育裂点，形成许多急流与瀑布，瀑布22处，溪涧18条，湖潭14处。最为著名的三叠泉瀑布，落差达155米，有“不到三
+          叠泉，不算庐山客”之美誉。1982年，庐山被国务院颁布为首批国家级风景名胜区。1996年12月6日，被列为世界文化遗产。
+          2003年，庐山成为中华十大名山之一。2007年3月7日，被评为国家AAAAA级旅游景区。 2022年5月，庐山云海入列、中国
+          气象服务协会公布的中国首批15个“天气气候景观观赏地”。
+         </p>
+    </div>
+   </div>
+
+ <!-- 第二个景点 -->
+   <div class="col-md-4 bg-body text-white text-center">
+    <div class="bg-white mt-4"  >
+      <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.Pt9ClBhCZHCcr_Ueg8KsGAHaEK?w=302&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7" 
+      width="300px"
+      height="200px"
+      > 
+    </div>
+  </div>
+  <div class="col-md-8 mt-4">
+        <div  class="title" style="font-size: larger; ">
+
+          <a href=http://www.jgsttc.cn/jgsjs/87.html#:~:text%E4%BA%95%E5%86%88%E5%B1%B1%E7%AE%80%E4%BB%8B,%E4%BA%95%E5%86%88%E5%B1%B1%E4%BD%8D%E4%BA%8E%E6%B1%9F%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%8D%97%E9%83%A8%EF%BC%8C%E6%B9%98%E8%B5%A3%E4%B8%A4%E7%9C%81%E4%BA%A4%E7%95%8C%E7%9A%84%E7%BD%97%E9%9C%84%E5%B1%B1%E8%84%89%E4%B8%AD%E6%AE%B5%EF%BC%8C%E4%BA%95%E5%86%88%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA%E6%98%AF1982%E5%B9%B4%E5%9B%BD%E5%8A%A1%E9%99%A2%E5%85%AC%E5%B8%83%E7%9A%84%E7%AC%AC%E4%B8%80%E6%89%B9%E5%9B%BD%E5%AE%B6%E7%BA%A7%E9%87%8D%E7%82%B9%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA%E3%80%82%201991%E5%B9%B4%E5%8F%88%E8%A2%AB%E8%AF%84%E4%B8%BA%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8%E8%83%9C%E5%9C%B0%E5%9B%9B%E5%8D%81%E4%BD%B3%E4%B9%8B%E4%B8%80%EF%BC%8C%E5%90%8C%E6%97%B6%E8%BF%98%E6%98%AF%E5%85%A8%E5%9B%BD%E7%99%BE%E5%AE%B6%E7%88%B1%E5%9B%BD%E4%B8%BB%E4%B9%89%E6%95%99%E8%82%B2%E7%A4%BA%E8%8C%83%E5%9F%BA%E5%9C%B0%E5%92%8C%E5%85%A8%E5%9B%BD%E5%8D%81%E4%BD%B3%E4%BC%98%E7%A7%80%E7%A4%BE%E4%BC%9A%E6%95%99%E8%82%B2%E5%9F%BA%E5%9C%B0%E3%80%82"
+           class="PlaceName2 nav-link text-danger">·  江西井冈山</a>
+        </div>
+        <div  style="font-size: medium;">
+       <p>
+        井冈山位于江西省西南部，湘赣两省交界的罗霄山脉中段，并冈山风景名胜区是1982年国务院公布的第一批国家级重点风景名胜区。
+        1991年又被评为中国旅游胜地四十佳之一，同时还是全国百家爱国主义教育示范基地和全国十佳优秀社会教育基地。井冈山集革命
+        人文景观与旖旎的自然风光为一体，革命胜迹壮丽河山交相辉映光照千秋，风景名胜区有60多个景点，20多处景观景物。景观分为
+        八大类：峰恋、山石、瀑布、气象、溶洞、温泉、珍稀动植物及高山田园风光，还较好地保存了井冈山斗争时期革命旧址遗迹29处，
+        其中10处被列为全国重点文物保护单位。这里巍峨群峰矗立，万壑争流，苍茫林海，飞瀑流泉，有气势磅礴的云海，瑰丽灿烂的日出，
+        十里绵延的杜鹃长廊和蜚声中外的井冈山主峰。井冈山属山岳型风景名胜区景观景点，汇雄。奇、险、峻。秀、幽的自然风光特点，
+        属中亚热带湿润季风型气候，雨量充沛，气候宜人，夏无酷暑，冬无严寒，年平均温度为14.2℃。是从事爱国主义教育。学习革命传统。
+        旅游风光。避暑疗养回归大自然的理想之地。
+       </p>
+  </div>
+ </div>
+
+ <!-- 第三个景点 -->
+ <div class="col-md-4 bg-body text-white text-center">
+  <div class="bg-white mt-4"  >
+    <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.uEw0akbkGX0qqqzkIvOLegAAAA?w=252&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7" 
+    width="300px"
+    height="200px"
+    > 
+  </div>
+</div>
+<div class="col-md-8 mt-4 ">
+      <div  class="title" style="font-size: larger; ">
+
+        <a href="https://www.baidu.com/link?url=2JlBgbwv_-I-EhhEMWTI8qsNoNitqGces3yHdYSEFtWCqPOWhWSbmy-TpO7nMXPy&wd=&eqid=c9ab137e0007fe9300000006645a5b52"
+         class="PlaceName2 nav-link text-danger" >·  江西仙女湖</a>
+      </div>
+      <div  style="font-size: medium;">
+     <p>
+      仙女湖因“毛衣女下凡新喻”爱情传说而得名，位于“中三角”中心地带 江西省新余市西南，地理位置优越，
+      是江西省开发最早的湖泊型景区，国家级风景名胜区、国家AAAA级旅游景区，亚洲最大的亚热带树种基因
+      库，中国七夕节发源地和“中国七仙女传说之乡”，被推崇为“爱情圣地”和“演绎爱情经典的摇篮”。仙女湖
+      七夕文化。
+     </p>
+</div>
+</div>
+
+<!-- 第四个景点 -->
+<div class="col-md-4 bg-body text-white text-center">
+  <div class="bg-white mt-4"  >
+    <img src="https://img2.baidu.com/it/u=2131523896,3661110675&fm=253&fmt=auto&app=138&f=GIF?w=500&h=328" 
+    width="300px"
+    height="200px"
+    > 
+  </div>
+</div>
+<div class="col-md-8 mt-4">
+      <div  class="title" style="font-size: larger; ">
+
+        <a href="https://www.baidu.com/link?url=GqtysTra2rm6DgQ1oQOi33QrKS8NV66zlmMmchcpo0jc_WZg2kWeMDVk9aJxWBQtB5Ir6BV6w03sLrKPdYUIhK0WhJKLOb0w150aNvJK8GaJZyTRw1wPLnnAr9Lh7YhZ&wd=&eqid=a35a143400002df200000006645a5c96"
+         class="PlaceName2 nav-link text-danger" >·  江西郁孤台</a>
+      </div>
+      <div  style="font-size: medium;">
+     <p>
+      郁孤台位于赣州城区西北部贺兰山（别名：田螺岭）顶，海拔131米，是城区的制高点，
+      赣州宋代古城墙自台下逶迤而过，属市级文物保护单位，1985年12月列为第一批省级重
+      点风景名胜区点，因坐落于山顶，以山势高阜、郁然孤峙得名。
+     </p>
+</div>
+</div>
+
+<!-- 第五个景点 -->
+<div class="col-md-4 bg-body text-white text-center">
+  <div class="bg-white mt-4"  >
+    <img src="https://i04piccdn.sogoucdn.com/587ed0d974725e96" 
+    width="300px"
+    height="200px"
+    > 
+  </div>
+</div>
+<div class="col-md-8 mt-4">
+      <div  class="title" style="font-size: larger; ">
+
+        <a href="https://baike.sogou.com/m/v179078324.htm?ch=sogou.scenic.vr"
+         class= "PlaceName2 nav-link text-danger" >·  江西滕王阁</a>
+      </div>
+      <div  style="font-size: medium;">
+     <p>
+      滕王阁位于江西省南昌市东湖区，始建于唐永徽四年（653年），与湖南岳阳岳阳楼、湖北武汉黄鹤楼并称为“江南三大名楼”，
+      是中国古代四大名楼之一、“中国十大历史文化名楼”之一，世称“西江第一楼”。滕王阁主体建筑高57.5米，建筑面积13000平方
+      米；其下部为象征古城墙的12米高台座，分为两级；台座以上的主阁取“明三暗七”格式，为三层带回廊建筑，内部共有七层，分
+      为三个明层、三个暗层及阁楼；正脊鸱吻为仿宋特制，高3.5米。据史书记载，因李元婴在贞观年间曾被封于山东省滕州，故为滕
+      王，且于滕州筑一阁楼名以“滕王阁”。永徽三年（公元652年），滕王李元婴调任江南洪州都督，次年又在洪州筑豪阁，仍冠名“滕
+      王阁”，此阁便是后来人所熟知的滕王阁。
+     </p>
+</div>
+</div>
+
+<!-- 第六个景点 -->
+<div class="col-md-4 bg-body text-white text-center">
+  <div class="bg-white mt-4"  >
+    <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.x4OJ78WrfSaGdI9B6-KBhgHaE7?w=261&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7" 
+    width="300px"
+    height="200px"
+    > 
+  </div>
+</div>
+<div class="col-md-8 mt-4">
+      <div  class="title" style="font-size: larger; ">
+
+        <a href="https://www.baidu.com/link?url=_YQAtCjTqPbEZpEUnzLIQcXe6gnlzaTWI1XD6mrCHwCHoj99RmB4SofPvFgswA3-O6G_R0_lj6IDD5DvrJMCrK&wd=&eqid=8fc35e500006be2100000006645a589f"
+         class="PlaceName2 nav-link text-danger" >·  江西婺源</a>
+      </div>
+      <div  style="font-size: medium;">
+     <p>
+      婺源古城，今婺源县城，设紫阳镇，是一座具有悠久历史的古城，现有诸多历史名胜遗存。
+      多年来，随着婺源城市扩张和开发，大量历史文化建筑曾被拆毁，古城整体风貌遭到破坏。 
+      由于婺源历史上曾属安徽管辖，古徽州一府六县之一，是南宋著名理学家朱熹的故里和中
+      国铁路之父詹天佑的家乡。“一生痴绝处，无梦到徽州”。“徽州”是被越来越多人提及的字
+      眼，有人说这里是中国传统文化的家园，地处偏僻山乡的婺源很幸运地保存了古徽州的所有气韵。 </p>
+</div>
+</div>
+
+<!-- 第七个景点 -->
+<div class="col-md-4 bg-body text-white text-center">
+  <div class="bg-white mt-4"  >
+    <img src="https://i02piccdn.sogoucdn.com/11103e6df582031d" 
+    width="300px"
+    height="200px"
+    > 
+  </div>
+</div>
+<div class="col-md-8 mt-4">
+      <div  class="title" style="font-size: larger; ">
+
+        <a href="https://baike.baidu.com/item/%E8%B5%A3%E5%B7%9E%E5%8F%A4%E6%B5%AE%E6%A1%A5/8574184"
+         class="PlaceName2 nav-link text-danger" >·  江西古浮桥</a>
+      </div>
+      <div  style="font-size: medium;">
+     <p>
+      古浮桥始建于宋代，作为赣州城市建设的一大工程，需要有足够的人力物力支持。
+      赣州古城在宋代是处于一个非常辉煌的时期，当时全国三十大州之一便有赣州一
+      席位置。《宋史》中有记载：“崇宁元年，州二百五十四，可谓极盛矣。大抵宋有
+      天下三百余年，繇建隆初讫治平末，一百四年，州郡沿革无大增损。”也就是说当
+      时全国上下有两百五十四个州郡，赣州名列全国三十个大州之一，已经在当时享誉
+      全国了。赣州仍然享誉“宋城博物馆”的称号，可见宋代赣州古城在城市建设上的成
+      绩非常优异，也为后世的继续发展奠定了良好的基础。同时，在经济和文化等领域
+      也达到了赣州的鼎盛状态。
+     </p>
+</div>
+</div>
+</div>
+
+
+<!-- 网页底部 -->
+<ul class="nav1 mt-4">
+  <li class="first2"> 
+    <div id="page01" class=" page" style="display:block" > 
+    <a class="nav1-link " href="https://www.baidu.com/link?url=uZ8ZnkFXyRKi2zwbmstxqsZgx831ZQNE09AUJ9jVam2jNv6msMUim3nY-UjATeQPG3ZmeoAX62IdgLmcxe-YvwEwWSi8TeasNAyzJtEMUVssc02y-iAtDxUXlxOxwhoSJMAdpryA5i1DJEuNEurqSjr5JASoBV3_K0ROe_0nbVpTBaxD66DrruNmb9GMrNtisrXmpQbpOKp09Bbn-Hk-ly-P_9umOcZuntjeRkynpYy&wd=&eqid=c97ff07e000c3bd800000006645b65eb" >天气☁</a>
+</div>
+</li>
+  <li class="second2">
+    <div id="page02" class=" page" style="display:block">
+      <a class="nav1-link" href="https://www.baidu.com/link?url=6V9iMwqC-NyD8fn0BdxsLw9VRkTl46CmtgWlfNsrxFMtt0E5dkDqevFVsygKHK9x&wd=&eqid=f0e6e7b100093a4d00000006645b696c">出行🚗</a>
+    </div>
+  </li>
+  <li class="three2">
+    <div id="page03" class=" page" style="display:block">
+      <a class="nav1-link " href="http://www.baidu.com/baidu.php?url=af0000KpxzUee8Wyt5twXEoRUlBxej2HbxbmrymDqeld9qVlat5q--X-VeUZyi_ETxLFCYjUT7Cffj3oBKaDkIlxw3bD4UgKorREgj4OUjQRxj2LD8bLJ6I_xcK4igWQtxbUBv6XxMBFscGZ9QJeF2Kjs2lvLf7BofuxpSOeityIJbbCRJc6yU5vczfQIh37STb56UY7i66dV7FgWBX3CtxxyWBC.DY_aOQ8zyc6OlZjR1hJsnpglnaU2S_U_DY2yQvTyjxugdkYymh51xjdqhKMP6IugMkEBk_E9xdsw5CnmLkmvgsE1L8z3D4qjSKnggVHC3ZHgng8z3DYxCk_Ed3rjKdHzqJIZ0lpeDkg_Lq5Wu8ooLSrOJM-eRlrKYdvQckg_Lq5Wu8ooLSrqi_nYQZuvU81TC0.U1Yk0ZDqs_57kQxS1EA4vTL30ZKGm1Yk0Zfq_JzSqnQjkTiLO_ek0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqP0KWpyfqnHDY0AdY5HDsnH-xnH0kPdt1nWc3g1nknWKxnW0dnNt1PW0k0AVG5H00TMfqnsKBpHYkPH9xnW0Yg1Rsndt4njc0UynqnH0krNtknjDLg1Dsn-tknjFxnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K9mWYsg100ugFM5H00TZ0qn0K8IM0qna3snj0snj0sn0KVIZ0qn0KbuAqs5H00ThCqn0KbugmqTAn0uMfqn0KspjYs0Aq15H00mMTqnH00UMfqn0K1XWY0mgPxpywW5gK1QyIlUMn0pywW5R9rf6KspZw45fKYmgFMugfqn17xn1DYg1cY0ZwdT1Y4PW01PjRYnW64PHbvrjcLP16d0ZF-TgfqnHm3n1TknW04PH0dP6K1pyfquj0YP1ndmWRsnjK-nyN-r0KWTvYqPYujfRmLfbnvwDmsnWuanfK9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5Hc0UyPxuMFEUHYsg1Kxn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1KxP1f4rjTYPdtLPHnsrjbsg1Kxn0Ksmgwxuhk9u1Ys0AwWpyfqn0K-IA-b5iYk0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYLP10dnjn0mhwGujY1rH9KfR77P1w7PHR3PH6drHPKrRf1rHTYrRwKP1bLn6KEm1Yk0AFY5Hn0Uv7YI1Ys0AqY5HD0ULFsIjYzc10Wn1_4nBnknj0sc1DLnHTdPHfLc1D3nj0sc1D3nj0sQW0snj0snan1c1cen1_Yc10WnH6Wna3sPHRLn1DWni3snj0snj0Wninsc1cznj0sQW0snj0sn0KBmy4omyPW5H0Wnansc100XZPYIHYknj6YPjbdnfKkgLmqna3dr7tsQW0sg108njKxna3dn7tsQWDvg1Kxna3kP-ts0AF1gLKzUvwGujYs0ZFEpyu_myTqP0KzIA7GujY0mLmq0A-1gvPsmHYs0APs5H00ugPY5H00mLFW5HnvP1mY&us=newvui&xst=mWY1rH9KfR77P1w7PHR3PH6drHPKrRf1rHTYrRwKP1bLn6715HDdnj03njc1n1nYP1fkP1fdn16Yg1czPNts0gTq_JzSqnQjkTiLO_ek0gDqs_57kQxS1EA4vTL30gRqnH03Pjf4PHDKIjYkPW61P1Dznjbd0ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKnWm1njnLPWTvPf&word=&ck=5984.26.50.305.144.365.173.445&shh=www.baidu.com&sht=baidu&wd=&bc=110101">旅拍🤳</a>
+    </div>
+  </li>
+  <li class="fourth2"><div id="page03" class=" page" style="display:block">
+    <a class="nav1-link " href="https://www.baidu.com/link?url=xE3QND2EfkTUxcEBgLvXLka066AuulACYmeqElqtLwWuZxTnBXUhf6s5LjHI0Jil&wd=&eqid=eb473ac6000c901c00000006645b6999">火车站🚊</a>
+  </div>
+  </li>
+  <li class="fifth2"><div id="page05" class=" page" style="display:block">
+    <a class="nav1-link" href="https://www.baidu.com/link?url=AQAg90q72wML2Q252J5DoYqMuXBX_fL2jpyl1sgoyLRGJTDyYNFRscqvecpDx4jc&wd=&eqid=de07ff7c000a102500000006645b69bc">酒店🏚</a>
+  </div>
+  </li>
+  <li class="sixth2"><div id="page06" class=" page" style="display:block">
+    <a class="nav1-link " href="https://www.baidu.com/link?url=2hsPCh8qx6DJgcI5v3jlgmoAV0gM34Vb2J3UUN63rFQ3xZVlk6YVkV8dOVUNyGyc&wd=&eqid=b45b7ac1000ccff900000006645b6a03">购票👀</a>
+  </div>
+  </li>
+</ul>
+
+<div class="service">
+<div class="about text-center">
+  <p>@江西旅游网页设计 </p>
+
+
+</div>
+</div>
+</body>
+</html>

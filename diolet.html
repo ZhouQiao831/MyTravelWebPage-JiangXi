@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>当地方言</title>
+    <link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="../期末大作业/css/mainstyle.css" />
+
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px) and (max-device-width: 980px)" href="../期末大作业/index.html" /> 
+<!-- 如果屏幕宽度小于600像素（max-device-width: 600px），就加载css600.css文件。
+如果屏幕宽度在600像素到980像素之间，则加载css600-980.css文件 -->
+
+</head>
+<style>
+   *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 520;
+    font-family: 微软雅黑;
+}
+
+/* .body{
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: contain;
+} */
+
+.nav{
+    display: flex;
+    list-style: none;
+    line-height: 35px;
+    font-size: 25px;
+    font: normal bold 20px "微软雅黑";
+    background-color: #cb1a1a;
+    line-height: 55px;
+
+}
+
+/* 鼠标移入 */
+.first:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+
+}
+.second:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.three:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fourth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fifth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+.sixth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+
+
+/* 鼠标移入
+.first:hover{
+    overflow: visible;
+    background-color: #6c1b1b;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+
+}
+.second:hover{
+    overflow: visible;
+    background-color: #6c1b1b;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.three:hover{
+    overflow: visible;
+    background-color: #6c1b1b;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fourth:hover{
+    overflow: visible;
+    background-color: #6c1b1b;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+} */
+
+
+    .img{
+        /* width: 10px;
+        height: 20px; */
+        float: right;
+        width: 49%;
+        padding: 0;
+    }
+    .text p{
+        width: 51%;
+    }
+    .text h3{
+        color: rgb(241, 22, 22);
+    }
+    .text h4{
+        color: rgb(167, 54, 16);
+    }
+</style>
+<ul class="nav">
+  <li class="first"> 
+    <div id="page01" class=" page" style="display:block" > 
+    <a class="nav-link text-white" href="../期末大作业/index.html" >首页</a>
+</div>
+</li>
+  <li class="second">
+    <div id="page02" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/HistoryCulture.html">历史文化</a>
+    </div>
+  </li>
+  <li class="three">
+    <div id="page03" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/Geographical.html">地理环境</a>
+    </div>
+  </li>
+  <li class="fourth"><div id="page03" class=" page" style="display:block">
+    <a class="nav-link text-white" href="../期末大作业/ScenicSpot.html">旅游景点</a>
+  </div>
+  </li>
+  <li class="fifth"><div id="page05" class=" page" style="display:block">
+    <a class="nav-link text-white" href="../期末大作业/Declicacy.html">特色美食</a>
+  </div>
+  </li>
+  <li class="sixth"><div id="page06" class=" page" style="display:block">
+    <a class="nav-link text-white" href="../期末大作业/DevelopmentHistory.html">发展历史</a>
+  </div>
+  </li>
+
+</ul>
+    <!-- Carousel图片轮播 -->
+
+  
+  <div id="demo" class="carousel slide "  data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=42808129,265340851&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500 " class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·武当山</h3>
+        </div>
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img1.baidu.com/it/u=94637218,3026385394&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·婺源</h3>
+        </div> 
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img2.baidu.com/it/u=366600451,2530759601&fm=253&fmt=auto&app=138&f=JPEG?w=950&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·庐山</h3>
+        </div>  
+      </div>
+  
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img2.baidu.com/it/u=2593494459,3332889748&fm=253&fmt=auto&app=138&f=JPEG?w=1120&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·滕王阁</h3>
+        </div>  
+      </div>
+  
+  
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=2912433513,2373749971&fm=253&fmt=auto&app=138&f=JPEG?w=852&h=500" class="d-block"height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·鄱阳湖</h3>
+          
+        </div>  
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=1092905551,1162734268&fm=253&fmt=auto&app=138&f=JPEG?w=890&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·庐山西海</h3>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  
+  
+
+
+ <!-- <body background="https://ts1.cn.mm.bing.net/th/id/R-C.dceca4db36ad5a74be79a08c9be0def1?rik=vG0val1zV4jk1A&riu=http%3a%2f%2fdabaoku.com%2fdabaoku%2fuploads%2fallimg%2f110208%2f112335C43-0.jpg&ehk=t1iyEFHtZwrSa%2fRBLcMD2DlIp896D8UNJTDVWbbhEi8%3d&risl=&pid=ImgRaw&r=0";
+        style="background-repeat:no-repeat; 
+        background-attachment:fixed;
+        background-size:100% 100%; ">  -->
+        <!--设置图片不重复显示--><!--设置图片的位置固定--><!--设置图片达到窗口100%的比例-->
+  </body>
+<body>
+  <div class="header">
+    <ul class="nav">
+        <!-- <li class="first"> 
+          <div id="page01" class="page" style="display:block" > 
+          <a class="nav-link text-white" href="../xiaozuzuoye/WebDesign01/index.html" >首页</a>
+      </div> -->
+    </li>
+    <li class="second">
+      <div id="page02" class="page" style="display:block">
+        <a class="nav-link text-white" href="../期末大作业/diolet.html">当地方言</a>
+      </div>
+    </li>
+    <li class="three">
+      <div id="page03" class="page" style="display:block">
+        <a class="nav-link text-white" href="../期末大作业/simple.html">城市象征</a>
+      </div>
+    </li>
+    <li class="fourth"><div id="page" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/music.html">风俗文化</a>
+    </div>
+    </li>
+    </ul>
+    </div>
+        <br>
+    <div class="text">
+        <h3 style="margin-left: 10px;margin-right: 10px;">
+        江西是我国南方地区的重要省份，也是我国方言比较多的省份。目前江西有5大方言：赣方言、客家方言、吴方言、江淮官话、徽方言、南昌方言。
+        </h3>
+        <div class="img">
+                <img src="https://ts1.cn.mm.bing.net/th/id/R-C.0a5aad33954c4702b49935e4808f8ce2?rik=3jLUlye%2fxvmkig&riu=http%3a%2f%2fimg1.xixik.net%2fcimg%2f117%2fxixik_1b0f8acf958c589f.jpeg&ehk=tdDFUyf%2fYjH8SuWEr4ejW9ub91gOV3cpdUWvTfk6f4M%3d&risl=&pid=ImgRaw&r=0"
+                style="margin-left: 20px;margin-right: 10px;">
+        </div>
+        <h4 style="margin-left: 10px;margin-right: 10px;">徽方言：</h4>
+        <p style="margin-left: 10px;margin-right: 10px;">
+徽州话主要分布在钱塘江上游古徽州府、严州府大部、饶州府部分地区，使用人口400多万。徽州方言颇具特色，是一种与普通话差别很大的土语群。徽州方言是在20世纪80年代后期才确定下来的一种汉语方言。此前，它是一直被作为“未明方言区”处理的。徽方言主要分布在靠近安徽的浮梁、婺源、横峰三个县。
+        </p>
+        <h4 style="margin-left: 10px;margin-right: 10px;">客家方言：</h4>
+        <p style="margin-left: 10px;margin-right: 10px;">
+客语在南宋时期便初步定型。其语音在继承古汉语的基础上，发生了有规律的音变。最迟从宋代开始，客家大本营梅州和汀州的语言就曾引起当时人们的注意。主要分布在素有“客家摇篮”之称的赣州市，其他则分布在吉安市的中部和南部，以及赣西北的铜鼓和修水，万载、奉新、宜丰等县，宜春的靖安县和高安市部分乡镇也说客家话。
+        </p>
+        <h4 style="margin-left: 10px;margin-right: 10px;">江淮官话：</h4>
+        <p style="margin-left: 10px;margin-right: 10px;">
+          江淮官话是官话分支之一。南北朝期间，全国处于分裂状态，战争频仍，江淮和江南地区受到中原汉语的冲击，尤以长江两岸为重，江淮间是主要战场，作为战争手段，军事家往往采取迁民或屯垦的措施。自此以后，江淮之间逐步演变为江淮方言，甚至扩大到南京镇江一带。在江西分布也比较广，目前九江市区、瑞昌市、九江县、赣州市区、信丰城区等地。
+       
+        </p>
+       <h4 style="margin-left: 10px;margin-right: 10px;">赣方言：</h4>
+     <p style="margin-left: 10px;margin-right: 10px;">
+      西汉时期，赣语就已经开始初具规模了。赣语的发展历史主要分为两个时期。第一个是秦汉时期，在秦国统一六国之后，由于经济政治上的需求，组织了一系列、强制性的人口迁移。这时候赣语由此开始萌芽。而在两晋南北朝的270年中，出现了7次南下移民的高潮。这时候的赣语也形成了一种新的汉语方言。江西省内60多个县市都通行赣语，
+  包括南昌，鹰潭，萍乡，宜春，抚州，吉安六个地区的各市县区，上饶九江两个地区的大多数区县市，还有景德镇的珠山，昌江，乐平也说赣语。
+         </p> 
+        <br>
+    </div>
+    
+    <!-- 网页底部 -->
+<ul class="nav1 mt-4">
+  <li class="first2"> 
+    <div id="page01" class=" page" style="display:block" > 
+    <a class="nav1-link" href="https://www.baidu.com/link?url=uZ8ZnkFXyRKi2zwbmstxqsZgx831ZQNE09AUJ9jVam2jNv6msMUim3nY-UjATeQPG3ZmeoAX62IdgLmcxe-YvwEwWSi8TeasNAyzJtEMUVssc02y-iAtDxUXlxOxwhoSJMAdpryA5i1DJEuNEurqSjr5JASoBV3_K0ROe_0nbVpTBaxD66DrruNmb9GMrNtisrXmpQbpOKp09Bbn-Hk-ly-P_9umOcZuntjeRkynpYy&wd=&eqid=c97ff07e000c3bd800000006645b65eb" >天气☁</a>
+</div>
+</li>
+  <li class="second2">
+    <div id="page02" class=" page" style="display:block">
+      <a class="nav1-link" href="https://www.baidu.com/link?url=6V9iMwqC-NyD8fn0BdxsLw9VRkTl46CmtgWlfNsrxFMtt0E5dkDqevFVsygKHK9x&wd=&eqid=f0e6e7b100093a4d00000006645b696c">出行🚗</a>
+    </div>
+  </li>
+  <li class="three2">
+    <div id="page03" class=" page" style="display:block">
+      <a class="nav1-link " href="http://www.baidu.com/baidu.php?url=af0000KpxzUee8Wyt5twXEoRUlBxej2HbxbmrymDqeld9qVlat5q--X-VeUZyi_ETxLFCYjUT7Cffj3oBKaDkIlxw3bD4UgKorREgj4OUjQRxj2LD8bLJ6I_xcK4igWQtxbUBv6XxMBFscGZ9QJeF2Kjs2lvLf7BofuxpSOeityIJbbCRJc6yU5vczfQIh37STb56UY7i66dV7FgWBX3CtxxyWBC.DY_aOQ8zyc6OlZjR1hJsnpglnaU2S_U_DY2yQvTyjxugdkYymh51xjdqhKMP6IugMkEBk_E9xdsw5CnmLkmvgsE1L8z3D4qjSKnggVHC3ZHgng8z3DYxCk_Ed3rjKdHzqJIZ0lpeDkg_Lq5Wu8ooLSrOJM-eRlrKYdvQckg_Lq5Wu8ooLSrqi_nYQZuvU81TC0.U1Yk0ZDqs_57kQxS1EA4vTL30ZKGm1Yk0Zfq_JzSqnQjkTiLO_ek0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqP0KWpyfqnHDY0AdY5HDsnH-xnH0kPdt1nWc3g1nknWKxnW0dnNt1PW0k0AVG5H00TMfqnsKBpHYkPH9xnW0Yg1Rsndt4njc0UynqnH0krNtknjDLg1Dsn-tknjFxnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K9mWYsg100ugFM5H00TZ0qn0K8IM0qna3snj0snj0sn0KVIZ0qn0KbuAqs5H00ThCqn0KbugmqTAn0uMfqn0KspjYs0Aq15H00mMTqnH00UMfqn0K1XWY0mgPxpywW5gK1QyIlUMn0pywW5R9rf6KspZw45fKYmgFMugfqn17xn1DYg1cY0ZwdT1Y4PW01PjRYnW64PHbvrjcLP16d0ZF-TgfqnHm3n1TknW04PH0dP6K1pyfquj0YP1ndmWRsnjK-nyN-r0KWTvYqPYujfRmLfbnvwDmsnWuanfK9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5Hc0UyPxuMFEUHYsg1Kxn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1KxP1f4rjTYPdtLPHnsrjbsg1Kxn0Ksmgwxuhk9u1Ys0AwWpyfqn0K-IA-b5iYk0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYLP10dnjn0mhwGujY1rH9KfR77P1w7PHR3PH6drHPKrRf1rHTYrRwKP1bLn6KEm1Yk0AFY5Hn0Uv7YI1Ys0AqY5HD0ULFsIjYzc10Wn1_4nBnknj0sc1DLnHTdPHfLc1D3nj0sc1D3nj0sQW0snj0snan1c1cen1_Yc10WnH6Wna3sPHRLn1DWni3snj0snj0Wninsc1cznj0sQW0snj0sn0KBmy4omyPW5H0Wnansc100XZPYIHYknj6YPjbdnfKkgLmqna3dr7tsQW0sg108njKxna3dn7tsQWDvg1Kxna3kP-ts0AF1gLKzUvwGujYs0ZFEpyu_myTqP0KzIA7GujY0mLmq0A-1gvPsmHYs0APs5H00ugPY5H00mLFW5HnvP1mY&us=newvui&xst=mWY1rH9KfR77P1w7PHR3PH6drHPKrRf1rHTYrRwKP1bLn6715HDdnj03njc1n1nYP1fkP1fdn16Yg1czPNts0gTq_JzSqnQjkTiLO_ek0gDqs_57kQxS1EA4vTL30gRqnH03Pjf4PHDKIjYkPW61P1Dznjbd0ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKnWm1njnLPWTvPf&word=&ck=5984.26.50.305.144.365.173.445&shh=www.baidu.com&sht=baidu&wd=&bc=110101">旅拍🤳</a>
+    </div>
+  </li>
+  <li class="fourth2"><div id="page03" class=" page" style="display:block">
+    <a class="nav1-link " href="https://www.baidu.com/link?url=xE3QND2EfkTUxcEBgLvXLka066AuulACYmeqElqtLwWuZxTnBXUhf6s5LjHI0Jil&wd=&eqid=eb473ac6000c901c00000006645b6999">火车站🚊</a>
+  </div>
+  </li>
+  <li class="fifth2"><div id="page05" class=" page" style="display:block">
+    <a class="nav1-link " href="https://www.baidu.com/link?url=AQAg90q72wML2Q252J5DoYqMuXBX_fL2jpyl1sgoyLRGJTDyYNFRscqvecpDx4jc&wd=&eqid=de07ff7c000a102500000006645b69bc">酒店🏚</a>
+  </div>
+  </li>
+  <li class="sixth2"><div id="page06" class=" page" style="display:block">
+    <a class="nav1-link " href="https://www.baidu.com/link?url=2hsPCh8qx6DJgcI5v3jlgmoAV0gM34Vb2J3UUN63rFQ3xZVlk6YVkV8dOVUNyGyc&wd=&eqid=b45b7ac1000ccff900000006645b6a03">购票👀</a>
+  </div>
+  </li>
+</ul>
+
+<div class="service">
+<div class="about text-center">
+  <p>@江西旅游网页设计 </p>
+
+</body>
+
+
+
+</html>

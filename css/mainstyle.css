@@ -1,0 +1,220 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 520;
+    font-family: 微软雅黑;
+}
+
+/* .body{
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: contain;
+} */
+
+.nav{
+    display: flex;
+    list-style: none;
+    line-height: 35px;
+    font-size: 25px;
+    font: normal bold 20px "微软雅黑";
+    background-color: #cb1a1a;
+    line-height: 55px;
+
+}
+
+/* 鼠标移入 */
+.first:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+
+}
+.second:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.three:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fourth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fifth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+.sixth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+
+
+        .row{
+            display: flex;
+            list-style: none;
+            line-height: 35px;
+            font-size: 27px;
+            font: normal bold 20px "微软雅黑";
+        }
+
+        
+           
+           li{
+            /*display与float两种方式使列表转为横向*/
+            /* display: inline; */
+            float: left;
+            width: 120px;
+            text-align: center;
+            margin: 0 55px;
+            line-height: 50px;
+            font-size: 20px;
+            color: #FFFFFF;
+           }
+           
+           li a{
+            display:block ;
+            color: #FFFFFF;
+            text-decoration: none;
+            text-align: center;
+            /* padding: 14px 16px; */
+           }
+
+        
+
+        li a:hover{
+            background-color:#cb1a1a ;
+            color: #999999;
+           }
+
+           .active{
+            background-color: #4d1313;
+           }
+
+
+           .nav1{
+            display: flex;
+            list-style: none;
+            line-height: 35px;
+            font-size: 25px;
+            font: normal bold 20px "微软雅黑";
+            background-color: #cb1a1a;
+            line-height: 65px;
+        
+        }
+           
+        .first2:hover{
+            overflow: visible;
+          
+            color: white;
+            z-index: 999;
+            cursor: pointer;
+        
+        }
+
+        .second2:hover{
+            overflow: visible;
+          
+            color: white;
+            z-index: 999;
+            cursor: pointer;
+        
+        }
+
+        .three2:hover{
+            overflow: visible;
+          
+            color: white;
+            z-index: 999;
+            cursor: pointer;
+        
+        }
+
+        .fourth2:hover{
+            overflow: visible;
+          
+            color: white;
+            z-index: 999;
+            cursor: pointer;
+        
+        }
+
+        .fifth2:hover{
+            overflow: visible;
+          
+            color: white;
+            z-index: 999;
+            cursor: pointer;
+        
+        }
+
+        .sixth2:hover{
+            overflow: visible;
+          
+            color: white;
+            z-index: 999;
+            cursor: pointer;
+        
+        }
+
+        .h3{
+            text-align: center;
+           
+        }
+
+       
+        /* .page{
+            width: 1450px;
+            height: 2400px;
+            border: 1px solid rgb(243, 242, 242);
+        }
+     */
+     
+     a1:hover{
+        color: #4d1313;
+     }
+
+     .PlaceName:hover{
+       text-decoration: underline;
+       font-size: 22px;
+     }
+
+     /* 旅游好处css */
+
+     .PlaceName2:hover{
+        text-decoration: underline;
+        font-size: 22px;
+      }
+
+      td a:hover{
+        font-size: 22px;
+      }
+
+      

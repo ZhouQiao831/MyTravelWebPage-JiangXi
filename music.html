@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风俗文化</title>
+    <link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="../期末大作业/css/mainstyle.css" />
+
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px) and (max-device-width: 980px)" href="../期末大作业/index.html" /> 
+<!-- 如果屏幕宽度小于600像素（max-device-width: 600px），就加载css600.css文件。
+如果屏幕宽度在600像素到980像素之间，则加载css600-980.css文件 -->
+
+</head>
+<style>
+ *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 520;
+    font-family: 微软雅黑;
+}
+
+/* .body{
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: contain;
+} */
+
+.nav{
+    display: flex;
+    list-style: none;
+    line-height: 35px;
+    font-size: 25px;
+    font: normal bold 20px "微软雅黑";
+    background-color: #cb1a1a;
+    line-height: 55px;
+
+}
+
+/* 鼠标移入 */
+.first:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+
+}
+.second:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.three:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fourth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fifth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+.sixth:hover{
+    overflow: visible;
+    background-color: #4d1313;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+
+
+    .row{
+        width: 1000px;
+        width: auto;
+    }
+    .text{
+        width: 100%;
+    }
+    /* .img1{
+        width: 100px;
+        height: 200px;
+        padding: 0;
+        width: 25%;
+        float: right;
+    }
+    .img2{
+        width: 100px;
+        height: 200px;
+        padding: 0;
+        width: 25%;
+        float: left;
+    } */
+    .row h3{
+        color: rgb(219, 93, 93);
+    }
+</style>
+<ul class="nav">
+  <li class="first"> 
+    <div id="page01" class=" page" style="display:block" > 
+    <a class="nav-link text-white" href="../期末大作业/index.html" >首页</a>
+</div>
+</li>
+  <li class="second">
+    <div id="page02" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/HistoryCulture.html">历史文化</a>
+    </div>
+  </li>
+  <li class="three">
+    <div id="page03" class=" page" style="display:block">
+      <a class="nav-link text-white" href="../期末大作业/Geographical.html">地理环境</a>
+    </div>
+  </li>
+  <li class="fourth"><div id="page03" class=" page" style="display:block">
+    <a class="nav-link text-white" href="../期末大作业/ScenicSpot.html">旅游景点</a>
+  </div>
+  </li>
+  <li class="fifth"><div id="page05" class=" page" style="display:block">
+    <a class="nav-link text-white" href="../期末大作业/Declicacy.html">特色美食</a>
+  </div>
+  </li>
+  <li class="sixth"><div id="page06" class=" page" style="display:block">
+    <a class="nav-link text-white" href="../期末大作业/DevelopmentHistory.html">发展历史</a>
+  </div>
+  </li>
+
+</ul>
+    <!-- Carousel图片轮播 -->
+
+  
+  <div id="demo" class="carousel slide "  data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=42808129,265340851&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500 " class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·武当山</h3>
+        </div>
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img1.baidu.com/it/u=94637218,3026385394&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·婺源</h3>
+        </div> 
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img2.baidu.com/it/u=366600451,2530759601&fm=253&fmt=auto&app=138&f=JPEG?w=950&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·庐山</h3>
+        </div>  
+      </div>
+  
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img2.baidu.com/it/u=2593494459,3332889748&fm=253&fmt=auto&app=138&f=JPEG?w=1120&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·滕王阁</h3>
+        </div>  
+      </div>
+  
+  
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=2912433513,2373749971&fm=253&fmt=auto&app=138&f=JPEG?w=852&h=500" class="d-block"height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·鄱阳湖</h3>
+          
+        </div>  
+      </div>
+      <div class="carousel-item"  style="height: 550px;">
+        <img src="https://img0.baidu.com/it/u=1092905551,1162734268&fm=253&fmt=auto&app=138&f=JPEG?w=890&h=500" class="d-block" height="550px" width="1500px">
+        <div class="carousel-caption">
+          <h3>江西·庐山西海</h3>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+<!-- 页面背景 -->
+<!-- <body background="https://ts1.cn.mm.bing.net/th/id/R-C.dceca4db36ad5a74be79a08c9be0def1?rik=vG0val1zV4jk1A&riu=http%3a%2f%2fdabaoku.com%2fdabaoku%2fuploads%2fallimg%2f110208%2f112335C43-0.jpg&ehk=t1iyEFHtZwrSa%2fRBLcMD2DlIp896D8UNJTDVWbbhEi8%3d&risl=&pid=ImgRaw&r=0";
+style="background-repeat:no-repeat; 
+background-attachment:fixed;
+background-size:100% 100%; ">  -->
+<!--设置图片不重复显示--><!--设置图片的位置固定--><!--设置图片达到窗口100%的比例-->
+</body>
+<body>
+    <div class="header">
+        <ul class="nav">
+            <!-- <li class="first"> 
+              <div id="page01" class="page" style="display:block" > 
+              <a class="nav-link text-white" href="../xiaozuzuoye/WebDesign01/index.html" >首页</a>
+          </div> -->
+          <li class="second">
+            <div id="page02" class="page" style="display:block">
+              <a class="nav-link text-white" href="../期末大作业/diolet.html">当地方言</a>
+            </div>
+          </li>
+          <li class="three">
+            <div id="page03" class="page" style="display:block">
+              <a class="nav-link text-white" href="../期末大作业/simple.html">城市象征</a>
+            </div>
+          </li>
+          <li class="fourth"><div id="page" class=" page" style="display:block">
+            <a class="nav-link text-white" href="../期末大作业/music.html">风俗文化</a>
+          </div>
+          </li>
+        </ul>
+        </div>
+        <br>
+   
+    <div class="row bg">
+      <div class="row div-video-list">
+        <!-- 第一个标志 -->
+        <div class="col-md-4 bg-body text-white text-center">
+          <div class="bg-white  mb-8"  >
+            <img src="https://iknow-pic.cdn.bcebos.com/b812c8fcc3cec3fdb5b4e009c688d43f869427c7?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_600%2Ch_800%2Climit_1%2Fquality%2Cq_85%2Fformat%2Cf_auto"
+          width="470px"
+          height="250px"
+            > 
+          </div>
+        </div>
+        <div class="col-md-8 mt-4">
+              <div class="title" style="font-size: larger; ">
+    
+                <a href="https://baike.baidu.com/item/%E9%AB%98%E8%85%94/3120679"
+                 class="PlaceName2 nav-link text-danger" >·  弋阳腔(江西省弋阳县地方传统戏剧，国家级非物质文化遗产之一)</a>
+              </div>
+              <div  style="font-size: medium;">
+                <p style="margin-left: 20px;">
+                  南宋中期，南戏经信江传入江西，在弋阳地区结合当地方言和民间音乐，于元末明初孕育出一种新的地方声腔弋阳腔。弋阳腔的唱腔结构最初采用曲牌联套体，形成极富特点的“徒歌、帮腔”演唱方式。明代中叶又发展出打破曲牌联套体制的滚调，并繁衍出多种变体。我国戏曲由宋元南戏过渡到明代传奇阶段，最早出现在江西的声腔，就是弋阳腔。与它先后诞生的还有海盐、余姚、昆山诸腔，号称明代四大声腔。
+                  江西弋阳腔，继承着南戏的优秀传统，沿着民间戏曲的发展道路，以其独特的艺术风貌，自成一派。其曲调多半是出于宋人词曲和里巷歌谣，用不同的曲牌联缀成套。本无宫调，亦罕节奏，顺口而歌。
+                  它的曲牌，来源于两个方面：出自南戏的曲牌有[鹧鸪天]、[皂罗袍]、[泣颜回]、[驻云飞]、[香罗带]、[红衲袄]、[山坡羊]、[步步娇]等；出自北曲的有[新水令]、[端正好]、[点绛唇]、[寄生草]、[朝天子]、[醉太平]、[快活林]、[清江引]等。它们虽为套曲，但可随心入腔。
+                  它的剧目多脱胎于目连戏文，复受话本、小说的影响，并集以家喻户晓的神话传说和历史故事为其题材内容，从而创造了一种连台大戏的演出方法。大戏剧目有：《目连传》、《东游记》、《西游记》、《南游记》、《北游记》、《封神榜》和《许真君》等十二本，每本可以连续演出七天。
+                  </p>
+        </div>
+       </div>
+
+           <!-- 第二个标志 -->
+          
+          <div class="col-md-8 ">
+                <div class="title" style="font-size: larger; ">
+      
+                  <a href="https://baike.baidu.com/item/%E7%81%AF%E4%BC%9A%EF%BC%88%E7%9F%B3%E5%9F%8E%E7%81%AF%E4%BC%9A%EF%BC%89/51125345"
+                   class="PlaceName2 nav-link text-danger text-end" >·  石城灯会</a>
+                </div>
+                <div  style="font-size: medium;">
+                  <p>    
+                    每年的正月初一开始，民间的手工艺者便会设计各种样式的灯具，并在大街小巷表演舞灯，一直持续到元宵节。作为一种汉族民俗文化。石城灯会寄托着神灵崇拜和火神崇拜。石城灯会主要表达目的是祈求国泰民安、风调雨顺、五谷丰登、消灾除恶，主要形式为正月初一至十五元霄花灯节和各种节庆，各路神庙菩萨的圣诞喜庆的游垅、游塅、游街等活动。 　 每年正月初一至十五，群众都会自发组成许多灯会进村入户表演灯彩。
+                    表演时使用的道具有龙灯、狮灯、马灯等几十种，除秆龙灯外，其余灯具均由各色纸张或纱绸经能工巧匠编、扎、画、剪、贴而成，形象逼真、色彩华丽、巧夺天工。灯会表演时有乐器伴奏，边唱边舞，舞蹈动作丰富，风格多样：龙灯和狮灯以踏、摆、转为主，并插以武艺，动作粗犷、豪放；茶篮灯和船灯的表演人物有旦、丑之分，其舞蹈动作小旦轻盈、活泼，彩旦滑稽、泼辣，丑旦诙谐、灵活。
+                    灯会在石城有广泛的群众基础，据调查，全县有各种灯队350余支，业余演员5000余名。流传于木兰乡的板桥灯则是所有男丁均会耍弄。灯王“秆龙灯”在农村中六岁以上男童均会耍弄。妇孺知灯、人人会灯。
+                </p>
+              
+          </div>
+         </div>
+         <div class="col-md-4  text-center">
+          <div   >
+            <img src="https://iknow-pic.cdn.bcebos.com/1e30e924b899a9017192bd5310950a7b0208f534?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_600%2Ch_800%2Climit_1%2Fquality%2Cq_85%2Fformat%2Cf_auto"
+            width="470px"
+          height="250px"
+            > 
+          </div>
+        </div>
+
+         <!-- 第三个标志 -->
+      <div class="col-md-4 bg-body text-white text-center">
+        <div class="bg-white  mb-8"  >
+          <img src="https://iknow-pic.cdn.bcebos.com/4610b912c8fcc3cec2464ba18045d688d53f2099?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_600%2Ch_800%2Climit_1%2Fquality%2Cq_85%2Fformat%2Cf_auto" 
+          width="470px"
+          height="250px"
+          > 
+        </div>
+      </div>
+      <div class="col-md-8 mt-4">
+            <div class="title" style="font-size: larger; ">
+  
+              <a href="https://baike.baidu.com/item/%E9%87%87%E8%8C%B6%E6%88%8F/468358"
+               class="PlaceName2 nav-link text-danger" >·  采茶戏</a>
+            </div>
+            <div  style="font-size: medium;">
+              <p style="margin-left: 20px;">
+                赣南采茶戏是江西地方戏曲之一。它是由民门采茶灯和民间灯彩相结合发展演变而成，后又吸收了南昌地区的民间舞蹈并与之相结合。南昌采茶戏表演诙谐风趣，唱腔优美深情，有着浓郁的南昌乡土气息。
+                江西采茶戏，主要发源于赣南安远，信丰一带，采茶戏与盛产茶叶有关。明朝，赣南、赣东、赣北茶区每逢谷雨季节，劳动妇女上山，一边采茶一边唱山歌以鼓舞劳动热情，这种在茶区流传的山歌，被人称为“采茶歌”。
+                由民间采茶歌和采茶灯演唱发展而来，继而成为一种有人物和故事情节的民间小戏，由于它一般只有二旦一丑，或生、旦、丑三人的表演，故又名“三角班”。
+                江西采茶戏的剧种，即有“萍乡采茶戏”、“赣南采茶戏”、“抚州采茶戏”、“南昌采茶戏”、“高安采茶戏”、“武宁采茶戏”、“赣东采茶戏”、“吉安采茶戏”、“景德镇采茶戏”和“宁都采茶戏”等。这些剧种虽然名目繁多，但它们形成的时间，大都在清代中期至清代末年的这一阶段。
+            </p>
+      </div>
+     </div>
+
+    
+     <!-- 第四个标志-->
+      
+      <div class="col-md-8 mt-4">
+            <div class="title" style="font-size: larger; ">
+  
+              <a href="https://baijiahao.baidu.com/s?id=1757871379948917345"
+               class="PlaceName2 nav-link text-danger text-end" >·  换彩</a>
+            </div>
+            <div  style="font-size: medium;">
+              <p>    
+                南昌县许多地方会有“换彩”习俗，换，即交换，彩，即礼物，“换彩”即交换礼物。
+        过去的一年，有的乡民娶了媳妇，有的生了孩子。无论一胎还是多胎，无论男娃还是女娃，无论婆家，还是娘家，到了新年，全村就会“换彩”迎新人。送者送出的是3个鸡蛋（如今生活条件有所改善，变成了6个鸡蛋，有的还会把鸡蛋染红，寓意六六大顺，日子红红火火），承者要回的则是一碗面。
+        到亲戚家拜年，一般都带糕点果品，以示尊重。受拜的亲戚家中，要烧汤煮面条，每人一碗，每碗配3个鸡蛋，还要摆腊盘、斟酒、盛饭招待客人，客人回家时回赠糖果礼品，俗称“换彩”，即"换财"的意思，就是大家都发财。用厚毛纸外加一层白纸包裹糕点，上贴一片红纸，送来送去。只图形式，不重内容。
+        此外，吉水县城还有一个非常有趣的习俗，凡是久婚未育的妇女，元宵节这天傍晚，都要去文庙旁的义路桥，无条件地接受小男孩抽打，意谓打了就可以怀孕。
+                </p>
+      </div>
+     </div>
+     <div class="col-md-4  text-center">
+      <div class="bg-white mb-8"  >
+        <img src="https://iknow-pic.cdn.bcebos.com/1e30e924b899a901714fbd5310950a7b0208f559?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_600%2Ch_800%2Climit_1%2Fquality%2Cq_85%2Fformat%2Cf_auto"
+        width="470px"
+        height="250px"
+        > 
+      </div>
+    </div>
+    
+
+      <!-- 第五个标志 -->
+      <div class="col-md-4  text-center">
+        <div class="mb-8"  >
+          <img src="https://iknow-pic.cdn.bcebos.com/267f9e2f07082838265d3a71b599a9014c08f107?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_600%2Ch_800%2Climit_1%2Fquality%2Cq_85%2Fformat%2Cf_auto"
+          width="470px"
+          height="250px"
+          > 
+        </div>
+      </div>
+      <div class="col-md-8 mt-4">
+            <div class="title" style="font-size: larger; ">
+  
+              <a href="https://baike.baidu.com/item/%E5%B0%9D%E6%96%B0%E8%8A%82/953561"
+               class="PlaceName2 nav-link text-danger" >· 吃新节</a>
+            </div>
+            <div  style="font-size: medium;">
+              <p style="margin-left: 20px;">
+                吃新节也叫尝新节，它是安福民间的一个传统节日，已被列入省级非物质文化遗产。在安福县金田、洋门、洲湖等乡镇老百姓的心目中，吃新节是仅次于春节的大节日。
+                吃新节和其它民间节日不同，没有固定的日期，在开镰收割前举行。其时间在二十四节气中的“小暑”前后。安福吃新节时间现在一般由南乡片最大乡镇洲湖镇政府确定，在同一天过吃新节的人口有十万之众，吃新节时间一旦确定，群众“喜大普奔”。过节前几天，各家各户都会上门延请外婆外公、七姑八姨等远亲近友一同去家里过节。
+                吃新当天，男女均不外出劳动，家家户户张罗着过节。男丁首先到稻田边，摘取饱满成熟的稻穗，供于祖坟、祠堂、神龛等处。妇女则将新谷舂成白米，煮成新米饭。节日的菜肴有鸡、鸭、鱼、肉和新上市的蔬菜，全部碾米粉蒸熟。饭前敬五谷神、土地、康王，吹吹打打耍龙灯。
+                俗话说：“牛歇谷雨马歇夏，人歇吃新不要哇（说）。”吃新后的第二天，农民们挥镰收割，一年辛苦的劳作也开始了。在当地人的心中，吃新节是一年当中仅次于春节的第二大节日。吃新节之前，村里外出务工经商的村民，都要纷纷赶回家中过节。
+            </p>
+      </div>
+     </div>
+  </div>
+  </div>
+
+
+    <!-- 网页底部 -->
+<ul class="nav1 mt-4">
+    <li class="first2"> 
+      <div id="page01" class=" page" style="display:block" > 
+      <a class="nav1-link" href="https://www.baidu.com/link?url=uZ8ZnkFXyRKi2zwbmstxqsZgx831ZQNE09AUJ9jVam2jNv6msMUim3nY-UjATeQPG3ZmeoAX62IdgLmcxe-YvwEwWSi8TeasNAyzJtEMUVssc02y-iAtDxUXlxOxwhoSJMAdpryA5i1DJEuNEurqSjr5JASoBV3_K0ROe_0nbVpTBaxD66DrruNmb9GMrNtisrXmpQbpOKp09Bbn-Hk-ly-P_9umOcZuntjeRkynpYy&wd=&eqid=c97ff07e000c3bd800000006645b65eb" >天气☁</a>
+  </div>
+  </li>
+    <li class="second2">
+      <div id="page02" class=" page" style="display:block">
+        <a class="nav1-link" href="https://www.baidu.com/link?url=6V9iMwqC-NyD8fn0BdxsLw9VRkTl46CmtgWlfNsrxFMtt0E5dkDqevFVsygKHK9x&wd=&eqid=f0e6e7b100093a4d00000006645b696c">出行🚗</a>
+      </div>
+    </li>
+    <li class="three2">
+      <div id="page03" class=" page" style="display:block">
+        <a class="nav1-link " href="http://www.baidu.com/baidu.php?url=af0000KpxzUee8Wyt5twXEoRUlBxej2HbxbmrymDqeld9qVlat5q--X-VeUZyi_ETxLFCYjUT7Cffj3oBKaDkIlxw3bD4UgKorREgj4OUjQRxj2LD8bLJ6I_xcK4igWQtxbUBv6XxMBFscGZ9QJeF2Kjs2lvLf7BofuxpSOeityIJbbCRJc6yU5vczfQIh37STb56UY7i66dV7FgWBX3CtxxyWBC.DY_aOQ8zyc6OlZjR1hJsnpglnaU2S_U_DY2yQvTyjxugdkYymh51xjdqhKMP6IugMkEBk_E9xdsw5CnmLkmvgsE1L8z3D4qjSKnggVHC3ZHgng8z3DYxCk_Ed3rjKdHzqJIZ0lpeDkg_Lq5Wu8ooLSrOJM-eRlrKYdvQckg_Lq5Wu8ooLSrqi_nYQZuvU81TC0.U1Yk0ZDqs_57kQxS1EA4vTL30ZKGm1Yk0Zfq_JzSqnQjkTiLO_ek0A-V5HczPfKM5gK1n6KdpHdBmy-bIfKspyfqP0KWpyfqnHDY0AdY5HDsnH-xnH0kPdt1nWc3g1nknWKxnW0dnNt1PW0k0AVG5H00TMfqnsKBpHYkPH9xnW0Yg1Rsndt4njc0UynqnH0krNtknjDLg1Dsn-tknjFxnW0dnNts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0K9mWYsg100ugFM5H00TZ0qn0K8IM0qna3snj0snj0sn0KVIZ0qn0KbuAqs5H00ThCqn0KbugmqTAn0uMfqn0KspjYs0Aq15H00mMTqnH00UMfqn0K1XWY0mgPxpywW5gK1QyIlUMn0pywW5R9rf6KspZw45fKYmgFMugfqn17xn1DYg1cY0ZwdT1Y4PW01PjRYnW64PHbvrjcLP16d0ZF-TgfqnHm3n1TknW04PH0dP6K1pyfquj0YP1ndmWRsnjK-nyN-r0KWTvYqPYujfRmLfbnvwDmsnWuanfK9m1Yk0ZK85H00TydY5H00Tyd15H00uANYgvPsmHYs0ZGY5Hc0UyPxuMFEUHYsg1Kxn7tsg1Kxn0Kbmy4dmhNxTAk9Uh-bT1Ysg1KxP1f4rjTYPdtLPHnsrjbsg1Kxn0Ksmgwxuhk9u1Ys0AwWpyfqn0K-IA-b5iYk0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0A-1mvsqn0K9uAu_myTqnfK_uhnqn0KbmvPb5fKYTh7buHYLP10dnjn0mhwGujY1rH9KfR77P1w7PHR3PH6drHPKrRf1rHTYrRwKP1bLn6KEm1Yk0AFY5Hn0Uv7YI1Ys0AqY5HD0ULFsIjYzc10Wn1_4nBnknj0sc1DLnHTdPHfLc1D3nj0sc1D3nj0sQW0snj0snan1c1cen1_Yc10WnH6Wna3sPHRLn1DWni3snj0snj0Wninsc1cznj0sQW0snj0sn0KBmy4omyPW5H0Wnansc100XZPYIHYknj6YPjbdnfKkgLmqna3dr7tsQW0sg108njKxna3dn7tsQWDvg1Kxna3kP-ts0AF1gLKzUvwGujYs0ZFEpyu_myTqP0KzIA7GujY0mLmq0A-1gvPsmHYs0APs5H00ugPY5H00mLFW5HnvP1mY&us=newvui&xst=mWY1rH9KfR77P1w7PHR3PH6drHPKrRf1rHTYrRwKP1bLn6715HDdnj03njc1n1nYP1fkP1fdn16Yg1czPNts0gTq_JzSqnQjkTiLO_ek0gDqs_57kQxS1EA4vTL30gRqnH03Pjf4PHDKIjYkPW61P1Dznjbd0ydk5H0an0cV0yPC5yuWgLKW0ykd5H0Kmv3qmh7GuZRKnWm1njnLPWTvPf&word=&ck=5984.26.50.305.144.365.173.445&shh=www.baidu.com&sht=baidu&wd=&bc=110101">旅拍🤳</a>
+      </div>
+    </li>
+    <li class="fourth2"><div id="page03" class=" page" style="display:block">
+      <a class="nav1-link " href="https://www.baidu.com/link?url=xE3QND2EfkTUxcEBgLvXLka066AuulACYmeqElqtLwWuZxTnBXUhf6s5LjHI0Jil&wd=&eqid=eb473ac6000c901c00000006645b6999">火车站🚊</a>
+    </div>
+    </li>
+    <li class="fifth2"><div id="page05" class=" page" style="display:block">
+      <a class="nav1-link " href="https://www.baidu.com/link?url=AQAg90q72wML2Q252J5DoYqMuXBX_fL2jpyl1sgoyLRGJTDyYNFRscqvecpDx4jc&wd=&eqid=de07ff7c000a102500000006645b69bc">酒店🏚</a>
+    </div>
+    </li>
+    <li class="sixth2"><div id="page06" class=" page" style="display:block">
+      <a class="nav1-link " href="https://www.baidu.com/link?url=2hsPCh8qx6DJgcI5v3jlgmoAV0gM34Vb2J3UUN63rFQ3xZVlk6YVkV8dOVUNyGyc&wd=&eqid=b45b7ac1000ccff900000006645b6a03">购票👀</a>
+    </div>
+    </li>
+  </ul>
+  
+  <div class="service">
+  <div class="about text-center">
+    <p>@江西旅游网页设计 </p>
+  
+</body>
+</html>
